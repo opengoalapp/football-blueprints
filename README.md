@@ -15,6 +15,7 @@ you can see the range of results before you start.
 | Blueprint | What it builds | Data |
 |---|---|---|
 | [possession-flow](possession-flow/) | Wind-map style animation of each team's possession routes, two teams side by side | StatsBomb open data, FA WSL 2023/24 |
+| [monty-football-chat](monty-football-chat/) | Chat with football data: the LLM answers by writing Python that calls a few fixed data functions, run in a browser sandbox | SkillCorner open data, A-League 2024/25 season aggregates |
 
 ## How to use a blueprint
 

@@ -7,6 +7,11 @@ and combines them, run in Pydantic's Monty sandbox inside your browser. A trace 
 code as it's written, then shows each data call and its result. Bring your own LLM: OpenRouter
 (free models work) or a local OpenAI-compatible server.
 
+The data functions here are for demonstration only: the agent writes them during the build from
+the prompt's description. The pattern depends on those functions being the trusted layer, since
+they're the model's only way to the data and they handle the data's quirks. So for real use, write
+them yourself, or at least spend real effort checking they're correct before relying on any answers.
+
 ## The prompt
 
 [`idea.md`](idea.md). Paste it into your coding agent as-is, or adapt it.

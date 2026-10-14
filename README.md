@@ -1,6 +1,6 @@
 # football-blueprints
 
-A catalogue of football analytics and visualisation ideas, written as prompts.
+A catalogue of football analytics ideas, written as prompts.
 
 Each blueprint is an **idea file**: a plain-language `idea.md` describing what to build, why, and
 the few things that make it work. Instead of sharing code as a gist, you share the idea. Paste it

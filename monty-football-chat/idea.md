@@ -1,5 +1,5 @@
-I'd like to build a small browser app for chatting with football data, as a demonstration of a
-pattern I think is underused: **give an LLM a few fixed data functions and let it answer by writing
+I'd like to build a small browser app for chatting with football data, as a demonstration of this
+pattern: **give an LLM a few fixed data functions and let it answer by writing
 short Python programs that call and combine them, run safely in a sandbox.**
 
 # Background

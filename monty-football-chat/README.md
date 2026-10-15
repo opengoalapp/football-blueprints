@@ -19,11 +19,11 @@ them yourself, or at least spend real effort checking they're correct before rel
 ## Building it
 
 - Start your agent in an empty folder; it builds there.
-- You need Node.js and a browser. The data is three small CSVs read straight from GitHub when the
+- You need Node.js and a browser. The data is three small CSVs read straight from SkillCorner's GitHub when the
   page loads, so there's nothing to download first.
 - For the chat you need either an OpenRouter account (sign in from the app; its free models work)
-  or a local OpenAI-compatible server such as llama.cpp, Ollama or LM Studio.
-- Using Claude Sonnet, a one-shot build takes **6–7 minutes** and costs **$1.05–$1.51** at
+  or a local OpenAI-compatible server such as llama.cpp, Ollama or LM Studio. Adapt the prompt if you want another backend LLM method.
+- Using Claude Sonnet as the idea implementer, a one-shot build takes **6–7 minutes** and costs **$1.05–$1.51** at
   pay-as-you-go API prices, generating about **41–48k tokens**.
 
 ## Example output
